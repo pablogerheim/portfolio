@@ -1,39 +1,23 @@
-
+import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
+import "./Footer.css";
 function Footer() {
-    return(
-        //<!--================Footer Area =================-->
-	<footer className="footer_area">
-		<div className="container">
-			<div className="row justify-content-center">
-				<div className="col-lg-12">
-					<div className="footer_top flex-column">
-						<div className="footer_logo">
-							<a href="#">
-								<img src="img/logo.png" alt=""/>
-							</a>
-							<h4>Follow Me</h4>
-						</div>
-						<div className="footer_social">
-							<a href="#"><i className="fa fa-facebook"></i></a>
-							<a href="#"><i className="fa fa-twitter"></i></a>
-							<a href="#"><i className="fa fa-dribbble"></i></a>
-							<a href="#"><i className="fa fa-behance"></i></a>
-						</div>
-					</div>
-				</div>
+	return (
+		<footer className="footer">
+			<h2 className="footer__slogan">PABLO</h2>
+			<p className="footer__contact">Minhas redes</p>
+			<div className="footer__div__icon">
+				<a href="https://github.com/pablogerheim">
+					<AiFillGithub className="footer__icon"/>
+				</a>
+				<a href="https://www.linkedin.com/in/pablogmvbraga/">
+					<AiFillLinkedin  className="footer__icon"/>
+				</a>
+				<a href="contact">
+					<AiOutlineMail  className="footer__icon"/>
+				</a>
 			</div>
-			<div className="row footer_bottom justify-content-center">
-				<p className="col-lg-8 col-sm-12 footer-text">
-					{/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
-{/* Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved | This template is made with <i className="fa fa-heart-o" aria-hidden="true"></i> by <a href="https://colorlib.com" target="_blank">Colorlib</a> */}
-</p>
-{/* <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. --> */}
-			</div>
-		</div>
-	</footer>
-    )
-	{/* <!--================End Footer Area =================--> */}
-
+		</footer>
+	);
 }
 
-export {Footer}
+export { Footer };

@@ -31,7 +31,6 @@
 	margin: 5px;
 }
 .header__slogan {
-	color: linear-gradient(blue, green);
 	background-image: linear-gradient(
 		to bottom,
 		rebeccapurple,
