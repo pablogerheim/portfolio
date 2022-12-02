@@ -8,7 +8,9 @@ function Header() {
 	return (
 		<header className={navbar ? "headerClose" : "headerOpen"}>
 			<div className="header__menu">
-				<h2 className="header__slogan">PABLO</h2>
+				<a href="home" className="header__slogan">
+					<h1>PABLO</h1>
+				</a>
 				<button className="header__button" onClick={() => setNavbar(!navbar)}>
 					{navbar ? (
 						<HiBars4 className="header__icon" />
@@ -18,11 +20,21 @@ function Header() {
 				</button>
 			</div>
 			<nav className="header__navbar">
-				<a className="header__links">INICIO</a>
-				<a className="header__links">SOBRE</a>
-				<a className="header__links">PROJETOS</a>
-				<a className="header__links">CONTATO</a>
-				<a className="header__links">SERVIÇOS</a>
+				<a href="home" className="header__links">
+					INICIO
+				</a>
+				<a href="about" className="header__links">
+					SOBRE
+				</a>
+				<a href="projects" className="header__links">
+					PROJETOS
+				</a>
+				<a href="contact" className="header__links">
+					CONTATO
+				</a>
+				<a href="services" className="header__links">
+					SERVIÇOS
+				</a>
 			</nav>
 		</header>
 	);

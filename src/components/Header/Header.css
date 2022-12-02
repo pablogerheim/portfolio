@@ -44,22 +44,23 @@
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	color: black;
+	text-decoration: none;
 }
 .header__links {
 	font: 500 14px/50px "Rubik", sans-serif;
-	text-transform: uppercase;
 	color: #ffffff;
 	padding: 0px;
 	display: inline-block;
 	border-bottom: 0.1px solid;
-  border-color: #5a575760;
+	border-color: #5a575760;
 	text-align: start;
-  margin: 0 10px;
-  font-weight: 700;
+	margin: 0 10px;
+	font-weight: 700;
+	text-decoration: none;
 }
-.header__links:hover{
-  color:	rgb(19, 110, 185) ;
-   transition: .7s;
+.header__links:hover {
+	color: rgb(19, 110, 185);
+	transition: 0.7s;
 }
 .header__navbar {
 	display: flex;
