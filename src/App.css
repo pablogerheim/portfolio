@@ -5,9 +5,9 @@
   flex-direction: column;
 }
 .app{
-  background-image: url("./img/fundo2.jpg");
+  background-image: url("./img/fundo4.jpg");
   background-repeat: no-repeat;
-  background-size:cover;
+  background-size: contain;
 }
 button {
   margin-bottom: 30px;

@@ -33,13 +33,12 @@
 .header__slogan {
 	background-image: linear-gradient(
 		to bottom,
-		rebeccapurple,
-		steelblue,
-		turquoise
+		#1c5560,
+		#0ca5b0
 	);
 	align-self: start;
 	margin: 10px;
-	font-size: 35px;
+	font-size: 45px;
 	background-clip: text;
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;

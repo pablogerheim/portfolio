@@ -1,7 +1,49 @@
-.home{
+.home {
   height: 63vh;
   margin-top: 7vh;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
 }
-.home__title{
-  padding-top: 170px;
+.home__title {
+  margin: 100px 0px 0 30px;
+  font-size: 2em;
+  font-weight: bold;
 }
+.home__sub__title {
+  margin: 10px 0px 0 30px;
+  font: 3.5rem "MutatorSans", sans-serif;
+  font-weight: 700;
+  text-align: initial;
+  line-height: 60px;
+}
+.home__text {
+  margin: 10px 0 0 30px;
+}
+.home__button   {
+  display: inline-block;
+  color: #fff;
+  letter-spacing: 0px;
+  font-family: "Rubik", sans-serif;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 46px;
+  outline: none !important;
+  text-align: center;
+  cursor: pointer;
+  text-transform: uppercase;
+  border-radius: 5px;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  background-image: linear-gradient(to right, #0ca5b0 0%, #1c5560 100%),
+    radial-gradient(circle at top left, #0ca5b0, #1c5560);
+  border: double 3px transparent;
+  box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+  margin: 20px 0 0 30px;
+}
+.home__button:hover {
+  border: 3px solid #1c5560;
+  color:black;
+  background: #fff;
+}
+
