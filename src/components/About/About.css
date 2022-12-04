@@ -2,3 +2,66 @@
   height: 63vh;
   margin-top: 7vh;
 }
+.about__banner{
+  width: 100vw;
+  height: 30vh;
+  background-color: #1c5560;
+  display: flex;
+  flex-direction: column;
+  align-items:center;
+  justify-content: center;
+}
+.about__title{
+  color:#fff;
+  display: inline-block;
+}
+.about__brands{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img{
+  width: 170px;
+  height: 100px;
+  cursor: pointer;
+  margin-bottom: 30px;
+  box-shadow: none;
+  -webkit-transition: all 0.4s ease 0s;
+  -moz-transition: all 0.4s ease 0s;
+  -o-transition: all 0.4s ease 0s;
+  transition: all 0.4s ease 0s;
+  margin: 5px;
+  background-size: contain;
+  background-position-x: center;
+  background-repeat: no-repeat;
+  filter: brightness(0%);
+  -o-filter: brightness(0%);
+  -ms-filter: brightness(0%);
+  -moz-filter: brightness(0%);
+  -webkit-filter: brightness(0%);
+  opacity: 0.7;
+  background-position-y: center;
+  border: 1px solid transparent;
+}
+.img:hover{
+  opacity: 1;
+  border: 1px solid transparent;
+  box-shadow: 0px 8px 30px rgba(118, 85, 225, 0.15);
+  filter: brightness(100%);
+  -o-filter: brightness(100%);
+  -ms-filter: brightness(100%);
+  -moz-filter: brightness(100%);
+  -webkit-filter: brightness(100%);
+}
+.about__img__arcelor{
+  background-image: url('../../img//brands/arcelor.png');
+  width: 170px;
+}
+.about__img__montana{
+  background-image: url('../../img//brands/montana.png');
+}
+.about__img__copy{
+  background-image: url('../../img//brands/copy.png');
+  width: 170px;
+}
