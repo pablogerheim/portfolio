@@ -1,18 +1,25 @@
 #root {
-  max-width: 1280px;
-  text-align: center;
-  display: flex;
-  flex-direction: column;
+	max-width: 1280px;
+	text-align: center;
+	display: flex;
+	flex-direction: column;
 }
-.app{
-  background-image: url("./img/fundo4.jpg");
-  background-repeat: no-repeat;
-  background-size: contain;
+.app {
+	background-image: url("./img/fundo4.jpg");
+	background-repeat: no-repeat;
+	background-size: contain;
 }
 button {
-  margin-bottom: 30px;
-  color: #ffffff;
-  background: transparent;
-  border: NONE;
-  cursor: pointer;
+	margin-bottom: 30px;
+	color: #ffffff;
+	background: transparent;
+	border: NONE;
+	cursor: pointer;
+}
+p {
+	line-height: 26px;
+	font-size: 15px;
+	font-family: "Roboto", sans-serif;
+	font-weight: 400;
+	color: #777777;
 }

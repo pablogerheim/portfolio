@@ -21,30 +21,17 @@ function Footer() {
 			</div>
 			<div className="footer__div__icon">
 				<a>
-					<FaReact className="footer__icon__dev" />
+					<img src="./src/img/icons/react.png" alt="react-icon" className="footer__icon__dev" />
 				</a>
 				<a>
-					<SiTypescript className="footer__icon__dev" />
+				<img src="./src/img/icons/ts.png" className="footer__icon__dev" />
 				</a>
 				<a>
-					<FaNode className="footer__icon__dev" />
+				<img src="./src/img/icons/vite.png" className="footer__icon__dev" />
 				</a>
 				<a>
-					<SiExpress className="footer__icon__dev" />
+				<img src="./src/img/icons/vercel.png" className="footer__icon__dev" />
 				</a>
-				<a>
-					<FaNode className="footer__icon__dev" />
-				</a>
-				<a>
-					<FaNode className="footer__icon__dev" />
-				</a>
-				<a>
-					<FaNode className="footer__icon__dev" />
-				</a>
-				<a>
-					<FaNode className="footer__icon__dev" />
-				</a>
-
 			</div>
 		</footer>
 	);
