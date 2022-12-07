@@ -1,4 +1,38 @@
 .services{
-  height: 63vh;
+  height: auto;
   margin-top: 7vh;
+}
+.services__banner {
+	width: 100vw;
+	height: 30vh;
+	background-color: #1c5560;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.services__title {
+	color: #fff;
+	display: inline-block;
+}
+.services__content{
+  display: flex;
+  flex-direction: column;
+  padding: 2em;
+  justify-content: center;
+  align-items: center;
+}
+.service__content__title{
+  margin: 10px;
+}
+.services__card{
+  width: 80vw;
+  height: 20vh;
+  padding: 1em;
+  margin: 1em;
+  background-color: rgb(255, 255, 255);
+  box-shadow: 0px 2px 6px rgba(118, 85, 225, 0.15);
+}
+.service__content__subtitle{
+margin:  10px 0;
 }
