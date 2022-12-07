@@ -37,7 +37,7 @@ function About() {
 					></button>
 				</div>
 				<div
-					className={`about__img__Freela img ${
+					className={`about__img__Freela imgfreela ${
 						activeExperice == 3 && "active"
 					}`}
 				>
@@ -45,7 +45,6 @@ function About() {
 						className="about__brands__button"
 						onClick={() => setActiveExperice(3)}
 					>
-						FreeLance
 					</button>
 				</div>
 			</div>
