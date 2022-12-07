@@ -1,7 +1,4 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
-import { FaReact, FaNode } from "react-icons/fa";
-import { SiTypescript, SiExpress } from "react-icons/si";
-
 import "./Footer.css";
 function Footer() {
 	return (

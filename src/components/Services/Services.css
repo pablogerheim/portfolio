@@ -1,5 +1,5 @@
 .services{
-  height: auto;
+  min-height: 63vh;
   margin-top: 7vh;
 }
 .services__banner {

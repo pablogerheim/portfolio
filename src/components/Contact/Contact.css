@@ -1,4 +1,82 @@
-.contact{
-  height: 63vh;
-  margin-top: 7vh;
+.contact {
+	min-height: 63vh;
+	margin-top: 7vh;
+}
+.contact__banner {
+	width: 100vw;
+	height: 30vh;
+	background-color: #1c5560;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+.contact__title {
+	color: #fff;
+	display: inline-block;
+}
+.contact__card {
+	display: flex;
+	margin: 2em;
+	align-items: center;
+	justify-items: center;
+}
+.contact__icon {
+	width: 30px;
+	height: 30px;
+	margin-right: 1em;
+}
+.contact__card__text {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: center;
+}
+.contact__form {
+	width: 100vw;
+}
+.contact__group {
+	margin-bottom: 10px;
+}
+.contact__input {
+	font-size: 13px;
+	line-height: 26px;
+	color: #999;
+	border: 1px solid #eeeeee;
+	font-family: "Roboto", sans-serif;
+	border-radius: 0px;
+	padding-left: 20px;
+	margin-bottom: 10px;
+	width: 80vw;
+}
+.contact__position__button {
+	display: flex;
+	justify-content: end;
+	margin: 5px 20px;
+}
+
+.contact__button {
+	display: inline-block;
+	color: #fff;
+	letter-spacing: 0px;
+	font-family: "Rubik", sans-serif;
+	font-weight: 700;
+	font-size: 14px;
+	line-height: 46px;
+	outline: none !important;
+	text-align: center;
+	cursor: pointer;
+	text-transform: uppercase;
+	border-radius: 5px;
+	background-origin: border-box;
+	background-clip: content-box, border-box;
+	background-image: linear-gradient(to right, #0ca5b0 0%, #1c5560 100%),
+		radial-gradient(circle at top left, #0ca5b0, #1c5560);
+	border: double 3px transparent;
+	box-shadow: 0px 10px 30px rgba(118, 85, 225, 0.3);
+}
+.contact__button:hover {
+	border: 3px solid #1c5560;
+	color: black;
+	background: #fff;
 }
