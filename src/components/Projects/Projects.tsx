@@ -1,4 +1,5 @@
 import "./Projects.css";
+import { AiFillGithub } from "react-icons/ai";
 function Projects() {
 	return (
 		<section className="projects">
@@ -8,32 +9,30 @@ function Projects() {
 			<h2 className="projects__content__title">PROJETOS DESENVOLVIDOS</h2>
 			<div className="projects__content">
 				<div className="projects__card">
-					<img src="./src/img/services/s3.png" />
-					<h3 className="projects__content__subtitle">
-						Desenvolvimento Font-end
-					</h3>
-					<p>GitHub Search</p>
-					<a
-						href="https://github.com/pablogerheim/github-search"
-						target="_blank"
-					>
-						Visitar Projeto
-					</a>
-					<a
-						href="https://github.com/pablogerheim/github-search"
-						target="_blank"
-					>
-						Visitar Projeto
-					</a>
-				</div>
-				<div className="projects__card">
-					<a href="https://www.google.com/" target="_blank">
-						<img src="./src/img/services/s3.png" />
-						<h3 className="projects__content__subtitle">
-							Desenvolvimento Back-end
-						</h3>
-						<p>Back end em Node.js e Express.</p>
-					</a>
+					<img
+						src="./src/img/projects/github.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">GitHub Search</h3>
+					<p>Projeto para procura de usuarios no Git.</p>
+					<p>Feito com JS.</p>
+					<div className="projects__card__links">
+						<a
+							href="https://github.com/pablogerheim/github-search"
+							target="_blank"
+						>
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a
+							href="https://github-search-xi-eight.vercel.app/"
+							target="_blank"
+						>
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
 				</div>
 			</div>
 		</section>
