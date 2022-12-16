@@ -17,7 +17,7 @@
 }
 .contact__card {
 	display: flex;
-	margin: 2em;
+	margin: 1em;
 	align-items: center;
 	justify-items: center;
 }
@@ -79,4 +79,30 @@
 	border: 3px solid #1c5560;
 	color: black;
 	background: #fff;
+}
+@media (min-width: 990px) {
+	.contact {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+	.contact__banner {
+		width: 58vw;
+		height: 21vw;
+		border-radius: 5px;
+		background-image: linear-gradient(
+			to right,
+			#1c5560,
+			#41a2cf,
+			#1c5560,
+			#1c5560
+		);
+		margin-bottom: 23vh;
+		font-size: 4em;
+	}
+	.contact__card {
+		margin-left: 21vw;
+		align-self: flex-start;
+		margin-bottom: 1vh;
+	}
 }

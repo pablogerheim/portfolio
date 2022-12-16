@@ -5,12 +5,12 @@ function Services() {
 			<div className="services__banner">
 				<h2 className="services__title">SERVIÇOS</h2>
 			</div>
-			<div className="services__content">
 				<h2 className="service__content__title">SERVIÇOS OFERECIDOS</h2>
+			<div className="services__content">
 				<div className="services__card">
 					<img src="./src/img/services/s1.png" />
 					<h3 className="service__content__subtitle">Desenvolvimento Font-end</h3>
-					<p>Designes responsivos em React e JS vanila.</p>
+					<p>Designes responsivos em React.js.</p>
 				</div>
 				<div className="services__card">
 					<img src="./src/img/services/s3.png" />

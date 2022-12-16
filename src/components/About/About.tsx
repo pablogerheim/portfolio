@@ -205,7 +205,7 @@ function About() {
 				<p className="about__objetivo__text ">
 					Atuar na área de desenvolvimento com React.js, Node.js e derivados.
 				</p>
-				<img src="./src/img/icons/reactNode.png" alt="icones React e Node.js" />
+				<img className="about__objetivo__img" src="./src/img/icons/reactNode.png" alt="icones React e Node.js" />
 			</div>
 			<div className="about__formacao ">
 				<h2 className="about__formacao__title">FORMAÇÃO</h2>

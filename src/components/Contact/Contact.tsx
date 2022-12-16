@@ -31,7 +31,7 @@ function Contact() {
 					<p>Email para contato</p>
 				</div>
 			</div>
-			<form className="contact__form" onSubmit={() => handleSubmit}>
+			{/* <form className="contact__form" onSubmit={() => handleSubmit}>
 				<input
 					type="text"
 					className="contact__input"
@@ -65,7 +65,7 @@ function Contact() {
 						<span>ENVIAR MENSAGEM</span>
 					</button>
 				</div>
-			</form>
+			</form> */}
 		</section>
 	);
 }

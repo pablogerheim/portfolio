@@ -2,6 +2,7 @@
   height: 27vh;
   background-color: rgb(250, 249, 249);
   padding-top: 3vh;
+	width: 100vw;
 }
 
 .footer__slogan{
@@ -38,4 +39,16 @@
 	height: 30px;
 	color: rgb(54, 54, 54);
 	margin-top: 5px;
+}
+
+@media (min-width: 990px) {
+	.footer__div__icon{
+		justify-content: center;
+	}
+	.footer__icon{
+		margin: 0 5px;
+	}
+	.footer__icon__dev{
+		margin: 0 5px;
+	}
 }
