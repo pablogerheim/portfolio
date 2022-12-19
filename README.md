@@ -1,11 +1,15 @@
 # Portfolio
 
-Seja bem vindo ao meu portfolio! 
+Seja bem vindo(a) ao meu portfolio! 
+
+Imagen Ilustrativa
+
+![Ilustrando](https://user-images.githubusercontent.com/90703690/208501118-b48fe384-09c5-428a-bcba-beab8f60b66c.png)
 
 ## 🚧 Em Desenvolvimento
 
-Baixar curriculum 
-Enviar mensagem
+- Baixar curriculum 
+- Enviar mensagem
 
 ## 🚀 Começando
 
