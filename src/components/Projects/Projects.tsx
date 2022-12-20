@@ -16,7 +16,7 @@ function Projects() {
 					/>
 					<h3 className="projects__content__subtitle">GitHub Search</h3>
 					<p>Projeto para procura de usuarios no Git.</p>
-					<p>Feito com JS.</p>
+					<p>Feito com JavaScript.</p>
 					<div className="projects__card__links">
 						<a
 							href="https://github.com/pablogerheim/github-search"
@@ -145,6 +145,143 @@ function Projects() {
 							src="./src/img/icons/vercel.png"
 							className="projects__card__vercelF"
 						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/portfolio.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Portfolio</h3>
+					<p>
+						Projeto para me apresentar, o qual esta sendo exibido agora, com
+						isso foi desabilitado o botão Vercel.
+					</p>
+					<p>Feito com React.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/portfolio" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/lettering.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Lettering</h3>
+					<p>Projeto para venda do curso lettering no trafego pago.</p>
+					<p>Feito com React.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/lettering" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://lettering.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/criptos.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Criptos</h3>
+					<p>Projeto - curso pós-MBA - Apresenta moedas criptos existentes.</p>
+					<p>Feito com Next.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/criptos" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://criptos-nine.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/elections.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Elections</h3>
+					<p>
+						Projeto - curso pós-MBA - Apresenta uma eleição de super herois
+						conforme as informações passadas por um objeto.
+					</p>
+					<p>Feito com React.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/elections" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://elections-delta.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/makeBase.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Make up Base</h3>
+					<p>
+						Projeto - curso pós-MBA - Apresenta uma grande variedade de produtos
+						de maquiagem e oferece filtros para procurá-los.
+					</p>
+					<p>Feito com JavaScrip.</p>
+					<div className="projects__card__links">
+						<a
+							href="https://github.com/pablogerheim/make-up-base"
+							target="_blank"
+						>
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://make-up-base-bice.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/cotacao.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Cotação de Fundos</h3>
+					<p>
+						Projeto - curso pós-MBA - Apresentar uma série de investimentos e o
+						percentual de valorização ou desvalorização com a variação de
+						preços.
+					</p>
+					<p>Feito com React.js.</p>
+					<div className="projects__card__links">
+						<a
+							href="https://github.com/pablogerheim/cotacoes-fundos"
+							target="_blank"
+						>
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://cotacoes-fundos.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
 					</div>
 				</div>
 			</div>
