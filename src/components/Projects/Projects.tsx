@@ -284,6 +284,75 @@ function Projects() {
 						</a>
 					</div>
 				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/fullForm.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Full Form</h3>
+					<p>
+						Projeto tem como objetivo pratica, essa consiste em seguir um figma
+						a risca.
+					</p>
+					<p>Feito com React.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/full-form" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<a href="https://full-form.vercel.app/" target="_blank">
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercel"
+							/>
+						</a>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/controleGastos.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Controle de Gastos</h3>
+					<p>
+						Projeto - curso pós-MBA - oferece uma forma de registrar gastos do
+						dia a dia para que seja mais fácil controlá-los, visualiza-los e
+						acompanhá-los.
+					</p>
+					<p>Feito com React.js e Node.js.</p>
+					<div className="projects__card__links">
+						<a
+							href="https://github.com/pablogerheim/controle-de-gastos"
+							target="_blank"
+						>
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/msVue.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">MS Vue</h3>
+					<p>
+						Este projeto apresente a primeira versão do aplicativo Market Split
+						mas não oferece funcionalidades.
+					</p>
+					<p>Feito com Vue.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/MS-Vue" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+							<img
+								src="./src/img/icons/vercel.png"
+								className="projects__card__vercelF"
+							/>
+					</div>
+				</div>
 			</div>
 		</section>
 	);
