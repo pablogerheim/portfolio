@@ -37,7 +37,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/pokedex.png"
+						src="../../img/projects/pokedex.png"
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Pokedex</h3>
