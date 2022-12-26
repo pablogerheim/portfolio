@@ -1,6 +1,23 @@
 import "./Projects.css";
 import vercel from "../../img/icons/vercel.png";
 import pokedex from "../../img/projects/pokedex.png";
+import controleGastos from "../../img/projects/controleGastos.png";
+import coreLab from "../../img/projects/coreLab.png";
+import cotacao from "../../img/projects/cotacao.png";
+import criptos from "../../img/projects/criptos.png";
+import elections from "../../img/projects/elections.png";
+import fullForm from "../../img/projects/fullForm.png";
+import github from "../../img/projects/github.png";
+import lettering from "../../img/projects/lettering.png";
+import loja from "../../img/projects/loja.png";
+import makeBase from "../../img/projects/makeBase.png";
+import marketSplit from "../../img/projects/marketSplit.png";
+import msVue from "../../img/projects/msVue.png";
+import node from "../../img/projects/node.js.svg.png";
+import portfolio from "../../img/projects/portfolio.png";
+import workShop from "../../img/projects/workShop.png";
+
+
 import { AiFillGithub } from "react-icons/ai";
 function Projects() {
 	return (
@@ -13,7 +30,7 @@ function Projects() {
 			<div className="projects__content">
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/github.png"
+						src={github}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">GitHub Search</h3>
@@ -31,7 +48,7 @@ function Projects() {
 							target="_blank"
 						>
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -56,7 +73,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/workShop.png"
+						src={workShop}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Work Shop</h3>
@@ -69,14 +86,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/marketSplit.png"
+						src={marketSplit}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Market Split</h3>
@@ -92,14 +109,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/loja.png"
+						src={loja}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Loja Next</h3>
@@ -114,7 +131,7 @@ function Projects() {
 						</a>
 						<a href="https://loja-puce.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -122,7 +139,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/coreLab.png"
+						src={coreLab}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Core Lab Test</h3>
@@ -138,14 +155,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/portfolio.png"
+						src={portfolio}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Portfolio</h3>
@@ -159,14 +176,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/lettering.png"
+						src={lettering}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Lettering</h3>
@@ -178,7 +195,7 @@ function Projects() {
 						</a>
 						<a href="https://lettering.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -186,7 +203,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/criptos.png"
+						src={criptos}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Criptos</h3>
@@ -198,7 +215,7 @@ function Projects() {
 						</a>
 						<a href="https://criptos-nine.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -206,7 +223,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/elections.png"
+						src={elections}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Elections</h3>
@@ -221,7 +238,7 @@ function Projects() {
 						</a>
 						<a href="https://elections-delta.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -229,7 +246,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/makeBase.png"
+						src={makeBase}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Make up Base</h3>
@@ -247,7 +264,7 @@ function Projects() {
 						</a>
 						<a href="https://make-up-base-bice.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -255,7 +272,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/cotacao.png"
+						src={cotacao}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Cotação de Fundos</h3>
@@ -274,7 +291,7 @@ function Projects() {
 						</a>
 						<a href="https://cotacoes-fundos.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -282,7 +299,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/fullForm.png"
+						src={fullForm}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Full Form</h3>
@@ -297,7 +314,7 @@ function Projects() {
 						</a>
 						<a href="https://full-form.vercel.app/" target="_blank">
 							<img
-								src="./src/img/icons/vercel.png"
+								src={vercel}
 								className="projects__card__vercel"
 							/>
 						</a>
@@ -305,7 +322,7 @@ function Projects() {
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/controleGastos.png"
+						src={controleGastos}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Controle de Gastos</h3>
@@ -323,14 +340,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/msVue.png"
+						src={msVue}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">MS Vue</h3>
@@ -344,14 +361,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/node.js.svg.png"
+						src={node}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Pet Shop</h3>
@@ -366,14 +383,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/node.js.svg.png"
+						src={node}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Car Models</h3>
@@ -387,14 +404,14 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>
 				</div>
 				<div className="projects__card">
 					<img
-						src="./src/img/projects/node.js.svg.png"
+						src={node}
 						className="projects__card__img"
 					/>
 					<h3 className="projects__content__subtitle">Delivery</h3>
@@ -409,7 +426,7 @@ function Projects() {
 							<AiFillGithub className="projects__card__icon" />
 						</a>
 						<img
-							src="./src/img/icons/vercel.png"
+							src={vercel}
 							className="projects__card__vercelF"
 						/>
 					</div>

@@ -1,5 +1,9 @@
 import { AiFillGithub, AiFillLinkedin, AiOutlineMail } from "react-icons/ai";
 import "./Footer.css";
+import vercel from "../../img/icons/vercel.png";
+import ts from "../../img/icons/ts.png";
+import vite from "../../img/icons/vite.png";
+import react from "../../img/icons/react.png";
 function Footer() {
 	return (
 		<footer className="footer">
@@ -18,16 +22,16 @@ function Footer() {
 			</div>
 			<div className="footer__div__icon">
 				<a>
-					<img src="./src/img/icons/react.png" alt="react-icon" className="footer__icon__dev" />
+					<img src={react} alt="react-icon" className="footer__icon__dev" />
 				</a>
 				<a>
-				<img src="./src/img/icons/ts.png" className="footer__icon__dev" />
+				<img src={ts} className="footer__icon__dev" />
 				</a>
 				<a>
-				<img src="./src/img/icons/vite.png" className="footer__icon__dev" />
+				<img src={vite} className="footer__icon__dev" />
 				</a>
 				<a>
-				<img src="./src/img/icons/vercel.png" className="footer__icon__dev" />
+				<img src={vercel} className="footer__icon__dev" />
 				</a>
 			</div>
 		</footer>

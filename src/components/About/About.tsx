@@ -1,5 +1,10 @@
 import { useState } from "react";
 import "./About.css";
+import doctum from "../../img/icons/doctum.png";
+import xpe from "../../img/icons/xpe.png";
+import reactNode from "../../img/icons/reactNode.png";
+
+
 function About() {
 	const [activeExperice, setActiveExperice] = useState(3);
 	return (
@@ -44,8 +49,7 @@ function About() {
 					<button
 						className="about__brands__button"
 						onClick={() => setActiveExperice(3)}
-					>
-					</button>
+					></button>
 				</div>
 			</div>
 			<div className={`about__description `}>
@@ -205,7 +209,11 @@ function About() {
 				<p className="about__objetivo__text ">
 					Atuar na área de desenvolvimento com React.js, Node.js e derivados.
 				</p>
-				<img className="about__objetivo__img" src="./src/img/icons/reactNode.png" alt="icones React e Node.js" />
+				<img
+					className="about__objetivo__img"
+					src={reactNode}
+					alt="icones React e Node.js"
+				/>
 			</div>
 			<div className="about__formacao ">
 				<h2 className="about__formacao__title">FORMAÇÃO</h2>
@@ -214,7 +222,7 @@ function About() {
 						Pós graduado em Desenvolvimento Full Stack
 					</p>
 					<p className="about__formacao__text">XPE – 01/2022 - 12/2022</p>
-					<img src="./src/img/icons/xpe.png" className="about__formacao__xpe" />
+					<img src={xpe} className="about__formacao__xpe" />
 				</div>
 				<div className="about__formacao__div">
 					<p className="about__formacao__text">
@@ -223,10 +231,7 @@ function About() {
 					<p className="about__formacao__text">
 						Doctum - JF - MG, 01/2016 - 10/2020
 					</p>
-					<img
-						src="./src/img/icons/doctum.png"
-						className="about__formacao__doctum"
-					/>
+					<img src={doctum} className="about__formacao__doctum" />
 				</div>
 			</div>
 		</section>
