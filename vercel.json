@@ -4,9 +4,6 @@
     { "src": "/projects", "dest": "/" },
     { "src": "/about", "dest": "/" },
     { "src": "/services", "dest": "/" },
-    { "src": "/contact", "dest": "/" },
-    { "src": "../../img/projects/pokedex.png", "dest": "../../img/projects/pokedex.png" },
-    { "src": "./src/img/icons/vercel.png", "dest": "./src/img/icons/vercel.png" }
-   
+    { "src": "/contact", "dest": "/" }   
   ]
 }

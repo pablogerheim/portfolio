@@ -1,4 +1,6 @@
 import "./Projects.css";
+import vercel from "../../img/icons/vercel.png";
+import pokedex from "../../img/projects/pokedex.png";
 import { AiFillGithub } from "react-icons/ai";
 function Projects() {
 	return (
@@ -36,10 +38,7 @@ function Projects() {
 					</div>
 				</div>
 				<div className="projects__card">
-					<img
-						src="../../img/projects/pokedex.png"
-						className="projects__card__img"
-					/>
+					<img src={pokedex} className="projects__card__img" />
 					<h3 className="projects__content__subtitle">Pokedex</h3>
 					<p>Projeto para procura de pokemons.</p>
 					<p>Feito com React.js.</p>
@@ -51,10 +50,7 @@ function Projects() {
 							href="https://pokedex-o65a3tnni-pablogerheim.vercel.app/"
 							target="_blank"
 						>
-							<img
-								src="./src/img/icons/vercel.png"
-								className="projects__card__vercel"
-							/>
+							<img src={vercel} className="projects__card__vercel" />
 						</a>
 					</div>
 				</div>
