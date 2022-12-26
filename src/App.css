@@ -4,7 +4,7 @@
 	flex-direction: column;
 }
 .app {
-	background-image: url("./img/fundo4.jpg");
+	background-image: url("./img/body-bg.png");
 	background-repeat: no-repeat;
 	background-size: cover;
 	background-position: center;
@@ -23,9 +23,4 @@ p {
 	font-family: "Roboto", sans-serif;
 	font-weight: 400;
 	color: #777777;
-}
-@media (min-width: 770px) {
-	.app {
-		background-image: url("./img/body-bg.png");
-	}
 }

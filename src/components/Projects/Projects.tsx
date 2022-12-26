@@ -347,10 +347,75 @@ function Projects() {
 						<a href="https://github.com/pablogerheim/MS-Vue" target="_blank">
 							<AiFillGithub className="projects__card__icon" />
 						</a>
-							<img
-								src="./src/img/icons/vercel.png"
-								className="projects__card__vercelF"
-							/>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/node.js.svg.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Pet Shop</h3>
+					<p>
+						Projeto - curso pós-MBA - Consiste em um back-end de um pet shop,
+						oferece as rotas para cadastrar proprietários, animais, serviços e
+						os relaciona.
+					</p>
+					<p>Feito com Node.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/pet-shop" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/node.js.svg.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Car Models</h3>
+					<p>
+						Projeto - curso pós-MBA - Primeiro projeto Node.js, oferece formas
+						de se consultar um JSON com várias marcas de carro.
+					</p>
+					<p>Feito com Node.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/car-list" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
+					</div>
+				</div>
+				<div className="projects__card">
+					<img
+						src="./src/img/projects/node.js.svg.png"
+						className="projects__card__img"
+					/>
+					<h3 className="projects__content__subtitle">Delivery</h3>
+					<p>
+						Projeto - curso pós-MBA - Oferece um sistema de delivery onde é
+						possível realizar o crud de pedidos, verificar seu status e oferece
+						um relatório básico.
+					</p>
+					<p>Feito com Node.js.</p>
+					<div className="projects__card__links">
+						<a href="https://github.com/pablogerheim/delivery" target="_blank">
+							<AiFillGithub className="projects__card__icon" />
+						</a>
+						<img
+							src="./src/img/icons/vercel.png"
+							className="projects__card__vercelF"
+						/>
 					</div>
 				</div>
 			</div>
