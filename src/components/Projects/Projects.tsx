@@ -13,7 +13,7 @@ import loja from "../../img/projects/loja.png";
 import makeBase from "../../img/projects/makeBase.png";
 import marketSplit from "../../img/projects/marketSplit.png";
 import msVue from "../../img/projects/msVue.png";
-import node from "../../img/projects/node.js.svg.png";
+import node from "../../img/projects/Node.js.svg.png";
 import portfolio from "../../img/projects/portfolio.png";
 import workShop from "../../img/projects/workShop.png";
 
