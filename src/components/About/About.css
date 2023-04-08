@@ -85,6 +85,11 @@
 	background-image: url("../../img//brands/lettering.png");
 	background-color: #b6dff0;
 }
+.about__img__dgb3 {
+	background-image: url("../../img/brands/dgb3.png");
+	width: 170px;
+	height: 150px;
+}
 .left {
 	text-align: left;
 }
@@ -150,6 +155,11 @@
 }
 .about__formacao__xpe {
 	width: 240px;
+}
+.about__formacao__alura {
+	margin: 10px;
+	width: 180px;
+	color:#2a7ae4;
 }
 .about__bg__copy {
 	background-image: linear-gradient(

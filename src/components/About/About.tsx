@@ -3,10 +3,12 @@ import "./About.css";
 import doctum from "../../img/icons/doctum.png";
 import xpe from "../../img/icons/xpe.png";
 import reactNode from "../../img/icons/reactNode.png";
+import alura from "../../img/icons/alura.svg";
+
 
 
 function About() {
-	const [activeExperice, setActiveExperice] = useState(3);
+	const [activeExperice, setActiveExperice] = useState(4);
 	return (
 		<section className="about">
 			<div className="about__banner">
@@ -51,8 +53,73 @@ function About() {
 						onClick={() => setActiveExperice(3)}
 					></button>
 				</div>
+				<div
+					className={`about__img__dgb3 img ${activeExperice == 4 && "active"
+						}`}
+				>
+					<button
+						className="about__brands__button"
+						onClick={() => setActiveExperice(4)}
+					></button>
+				</div>
 			</div>
 			<div className={`about__description `}>
+				<div className={`about__bg__freela ${activeExperice != 4 && "none"}`}>
+					<h3
+						className={`about__description__title ${activeExperice != 4 && "none"
+							}`}
+					>
+						DGB Tecnologia
+					</h3>
+					<p
+						className={`about__description__data ${activeExperice != 4 && "none"
+							}`}
+					>
+						01/2023 - 03/2023 - Ouro Preto – MG
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Desenvolvimento de aplicação full stack integrada com processos em Python e autenticação.
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Desenvolvimento de plataforma para controle de estoque com cadastro e download de PDF.
+					</p>
+					<p
+						className={`about__description__data ${activeExperice != 4 && "none"
+							}`}
+					>
+						 --- Promoção ---
+					</p>
+					<p
+						className={`about__description__data ${activeExperice != 4 && "none"
+							}`}
+					>
+						03/2023 - Atual - Ouro Preto – MG
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Build e Deploy de projetos utilizando a VPS da Hostgator, e servidor próprio.
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Suporte para o desenvolvimento do site principal.
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Manutenção e melhorarias em códigos existentes.
+					</p>
+				</div>
 				<div className={`about__bg__freela ${activeExperice != 3 && "none"}`}>
 					<h3
 						className={`about__description__title ${
@@ -66,7 +133,7 @@ function About() {
 							activeExperice != 3 && "none"
 						}`}
 					>
-						07/2022 - Juiz de Fora – MG
+						07/2022 - 01/2023 - Juiz de Fora – MG
 					</p>
 					<p
 						className={`about__description__text ${
@@ -217,6 +284,15 @@ function About() {
 			</div>
 			<div className="about__formacao ">
 				<h2 className="about__formacao__title">FORMAÇÃO</h2>
+				<div className="about__formacao__div">
+					<p className="about__formacao__text">
+						Diversos cursos: <a target="_blank" href="https://cursos.alura.com.br/user/pablogerheim/fullCertificate/4d68decd9507817751ce305abe0b1149">Ver cursos</a>
+					</p>
+					<p className="about__formacao__text">
+						Estudo continuo.
+					</p>
+					<img src={alura} className="about__formacao__alura" />
+				</div>
 				<div className="about__formacao__div">
 					<p className="about__formacao__text">
 						Pós graduado em Desenvolvimento Full Stack
