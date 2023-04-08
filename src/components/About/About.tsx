@@ -289,7 +289,7 @@ function About() {
 						Diversos cursos: <a target="_blank" href="https://cursos.alura.com.br/user/pablogerheim/fullCertificate/4d68decd9507817751ce305abe0b1149">Ver cursos</a>
 					</p>
 					<p className="about__formacao__text">
-						Estudo continuo.
+						Estudo continuo: <a target="_blank" href="https://cursos.alura.com.br/user/%20pablogerheim"> Ver perfil</a>
 					</p>
 					<img src={alura} className="about__formacao__alura" />
 				</div>
