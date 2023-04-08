@@ -20,6 +20,11 @@
 .home__text {
   margin: 10px 0 0 30px;
 }
+/* .home__section{
+  display: flex;
+  align-items: flex-start;
+  flex-wrap: wrap;
+} */
 .home__button   {
   display: inline-block;
   color: #fff;
