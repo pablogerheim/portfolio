@@ -105,19 +105,25 @@ function About() {
 						className={`about__description__text ${activeExperice != 4 && "none"
 							}`}
 					>
+						Atuando na parte de infraestrutura.
+					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
 						Build e Deploy de projetos utilizando a VPS da Hostgator, e servidor próprio.
 					</p>
 					<p
 						className={`about__description__text ${activeExperice != 4 && "none"
 							}`}
 					>
-						Suporte para o desenvolvimento do site principal.
+						Suporte para o desenvolvimento Front & Back.
 					</p>
 					<p
 						className={`about__description__text ${activeExperice != 4 && "none"
 							}`}
 					>
-						Manutenção e melhorarias em códigos existentes.
+						Manutenção e melhoraria em códigos existentes.
 					</p>
 				</div>
 				<div className={`about__bg__freela ${activeExperice != 3 && "none"}`}>
@@ -140,7 +146,7 @@ function About() {
 							activeExperice != 3 && "none"
 						}`}
 					>
-						Site de apresentação do curço lattering na pratica, utilizado para
+						Site de apresentação do curso lattering na pratica, utilizado para
 						trafego pago.
 					</p>
 					<p
