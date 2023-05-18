@@ -11,7 +11,7 @@ function Services() {
 			<div className="services__content">
 				<div className="services__card">
 					<img src={s1} />
-					<h3 className="service__content__subtitle">Desenvolvimento Font-end</h3>
+					<h3 className="service__content__subtitle">Desenvolvimento Front-end</h3>
 					<p>Designes responsivos em React.js.</p>
 				</div>
 				<div className="services__card">
