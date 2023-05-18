@@ -125,6 +125,12 @@ function About() {
 					>
 						Manutenção e melhoraria em códigos existentes.
 					</p>
+					<p
+						className={`about__description__text ${activeExperice != 4 && "none"
+							}`}
+					>
+						Visitar site <a href="https://dgbtecnologia.com.br"> DGB tecnologia</a>
+					</p>
 				</div>
 				<div className={`about__bg__freela ${activeExperice != 3 && "none"}`}>
 					<h3
